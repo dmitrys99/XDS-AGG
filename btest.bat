@@ -1,0 +1,1 @@
+xc =m test.ob2 +CHANGESYM +PROCINLINE

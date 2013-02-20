@@ -1,0 +1,10 @@
++gendebug
++verbose
+-lineno
++changesym
+
+-lookup = *.obj = .\obj
+-lookup = *.odf = .\odf
+-lookup = *.sym = .\sym
+
+!module tut5.ob2

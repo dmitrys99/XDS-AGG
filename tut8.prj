@@ -1,0 +1,12 @@
+-CHECKDIV
++gendebug
++verbose
+-lineno
++changesym
+
+-lookup = *.obj = .\obj
+-lookup = *.odf = .\odf
+-lookup = *.sym = .\sym
+-lookup = *.ob2 = .;.\ctrl;.\platform;.\util
+
+!module tut8.ob2

@@ -1,0 +1,17 @@
+-lookup = *.obj = ..\obj
+-lookup = *.asm = ..\asm
+-lookup = *.odf = ..\odf
+-lookup = *.sym = ..\sym
+-lookup = *.ob2 = ..;..\ctrl;..\platform;..\util
+
+-HEAPLIMIT=209715200
+-CHECKDIV
+
++MAKEDEF
++CHANGESYM
+-BSTYLE=DEF
++XCOMMENTS
++GENFRAME
+
+
+!module rounded_rect.ob2

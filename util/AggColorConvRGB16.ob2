@@ -1,0 +1,3 @@
+MODULE AggColorConvRGB16;
+
+END AggColorConvRGB16.

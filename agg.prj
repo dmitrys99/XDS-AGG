@@ -1,0 +1,108 @@
+-lookup = *.obj = .\obj
+-lookup = *.asm = .\asm
+-lookup = *.odf = .\odf
+-lookup = *.sym = .\sym
+-lookup = *.ob2 = .;.\ctrl;.\platform;.\util
+
+-HEAPLIMIT=209715200
+-CHECKDIV
+
++MAKEDEF
++CHANGESYM
+-BSTYLE=DEF
++XCOMMENTS
+
+!module AggBasics.ob2
+!module AggBit.ob2
+!module AggColor.ob2
+!module AggRenderingBuffer.ob2
+!module AggPixfmtBase.ob2
+!module AggPixfmt24.ob2
+!module AggPixfmtRgb24.ob2
+!module AggPixfmtBgr24.ob2
+!module AggPixfmtRgb24Pre.ob2
+!module AggPixfmtBgr24Pre.ob2
+!module AggPixfmtRgb24Gamma.ob2
+!module AggPixfmtBgr24Gamma.ob2
+!module AggPixfmtGrayBase.ob2
+!module AggPixfmtGray.ob2
+!module AggPixfmtGrayPre.ob2
+
+!module AggGammaLut.ob2
+
+!module AggRendererBase.ob2
+!module AggEllipseBresenham.ob2
+!module AggDDALine.ob2
+!module AggRendererPrimitives.ob2
+!module AggLineAABasics.ob2
+!module AggVertexSource.ob2
+!module AggScanline.ob2
+!module AggScanlineBin.ob2
+!module AggScanlineP.ob2
+!module AggGammaFunctions.ob2
+!module AggRasterizerOutline.ob2
+!module AggSpanAllocator.ob2
+!module AggMath.ob2
+!module AggArray.ob2
+!module AggVertexSequence.ob2
+!module AggClipLiangBarsky.ob2
+!module AggMathStroke.ob2
+!module AggRasterizerCellsAA.ob2
+!module AggRasterizerScanline.ob2
+!module AggRasterizerScanlineAA.ob2
+!module AggSpanGenerator.ob2
+!module AggRendererScanline.ob2
+!module AggRenderScanlines.ob2
+!module AggScanlineU.ob2
+!module AggEllipse.ob2
+!module AggShortenPath.ob2
+
+!module AggVcgenStroke.ob2
+!module AggVcgenVertexSequence.ob2
+
+!module AggConvAdaptorVcgen.ob2
+!module AggConvStroke.ob2
+!module AggConvShortenPath.ob2
+!module AggConvMarkerAdaptor.ob2
+!module AggConvSegmentator.ob2
+
+!module AggArc.ob2
+!module AggTransAffine.ob2
+!module AggTransViewport.ob2
+!module AggBezierArc.ob2
+!module AggConvTransform.ob2
+!module AggBoundingRect.ob2
+!module AggRoundedRect.ob2
+
+!module AggRendererOutlineAA.ob2
+!module AggRasterizerOutlineAA.ob2
+
+!module AggBSpline.ob2
+!module AggArrowHead.ob2
+
+!module AggCtrl.ob2
+!module AggCboxCtrl.ob2
+!module AggSliderCtrl.ob2
+!module AggRboxCtrl.ob2
+
+!module AggWin32Bmp.ob2
+!module AggPlatformSupport.ob2
+
+!module AggColorConv.ob2
+!module AggColorConvRGB8.ob2
+!module AggColorConvRGB16.ob2
+
+!module AggAlphaMaskU8.ob2
+
+!module AggEmbeddedRasterFonts.ob2
+!module AggGSVText.ob2
+
+!module AggPathStorage.ob2
+
+!module AggConvAdaptorVpgen.ob2
+!module AggVpgenSegmentator.ob2
+
+!module ParseLion.ob2
+!module MakeArrows.ob2
+
+!module agg_build.ob2

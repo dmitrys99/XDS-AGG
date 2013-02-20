@@ -1,0 +1,10 @@
+-lookup = *.obj = ..\obj
+-lookup = *.asm = ..\asm
+-lookup = *.odf = ..\odf
+-lookup = *.sym = ..\sym
+-lookup = *.ob2 = ..;..\ctrl;..\platform;..\util;.
+
++CHANGESYM
+
+!module Minimal.ob2
+!module Minimal.res
